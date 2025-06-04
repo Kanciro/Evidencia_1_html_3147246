@@ -12,7 +12,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from db.database import Base, MARIADB_URL
-from db.models import Categoria
+from db.models import Criptomonedas, Valor_historico, Calculadora_de_divisas, Noticias,Categoria_noticias, Fuentes_noticias,Usuarios   
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
